@@ -1,0 +1,935 @@
+_type: export
+__export_format: 4
+__export_date: 2022-03-28T17:16:08.700Z
+__export_source: insomnia.desktop.app:v2022.2.0
+resources:
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22d7f37c74
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611774
+    created: 1648011611774
+    url: "{{ base_url }}/api/course/{{ course_id }}"
+    name: /api/course/{course_id}
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648011611774
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    parentId: null
+    modified: 1648011557578
+    created: 1648011557578
+    name: dodo.yaml
+    description: ""
+    scope: design
+    _type: workspace
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22d99984d0
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611771
+    created: 1648011611771
+    url: "{{ base_url }}/api/course/{{ course_id }}"
+    name: /api/course/{course_id}
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "course_name": "Maths1",
+          "course_code": "MA101",
+          "course_description": "Course Description Example"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1648011611771
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c2246de9ca0
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611769
+    created: 1648011611769
+    url: "{{ base_url }}/api/course/{{ course_id }}"
+    name: /api/course/{course_id}
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648011611769
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22d8a71518
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611767
+    created: 1648011611767
+    url: "{{ base_url }}/api/course"
+    name: /api/course
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "course_name": "Maths1",
+          "course_code": "MA101",
+          "course_description": "Course Description Example"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1648011611767
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22e191caf9
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611763
+    created: 1648011611763
+    url: "{{ base_url }}/api/student/{{ student_id }}"
+    name: /api/student/{student_id}
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648011611763
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22e2cfe2b9
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611760
+    created: 1648011611760
+    url: "{{ base_url }}/api/student/{{ student_id }}"
+    name: /api/student/{student_id}
+    description: ""
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "first_name": "Narendra",
+          "last_name": "Mishra",
+          "roll_number": "MA19M010"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1648011611760
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c2268f52712
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611757
+    created: 1648011611757
+    url: "{{ base_url }}/api/student/{{ student_id }}"
+    name: /api/student/{student_id}
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648011611757
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c2254310e51
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611753
+    created: 1648011611753
+    url: "{{ base_url }}/api/student"
+    name: /api/student
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "first_name": "Narendra",
+          "last_name": "Mishra",
+          "roll_number": "MA19M010"
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1648011611753
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22e2d16114
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611749
+    created: 1648011611749
+    url: "{{ base_url }}/api/student/{{ student_id }}/course"
+    name: /api/student/{student_id}/course
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648011611749
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22949d6a77
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611743
+    created: 1648011611743
+    url: "{{ base_url }}/api/student/{{ student_id }}/course"
+    name: /api/student/{student_id}/course
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+          "course_id": 12345
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+    authentication: {}
+    metaSortKey: -1648011611743
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c220508ca04
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011611738
+    created: 1648011611738
+    url: "{{ base_url }}/api/student/{{ student_id }}/course/{{ course_id }}"
+    name: /api/student/{student_id}/course/{course_id}
+    description: ""
+    method: DELETE
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1648011611738
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_cbbe5f7c9abb06272a2b14455f710a81210f8937
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011557593
+    created: 1648011557593
+    name: Base Environment
+    data:
+      base_url: "{{ scheme }}://{{ host }}{{ base_path }}"
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1648011557593
+    _type: environment
+  - _id: jar_cbbe5f7c9abb06272a2b14455f710a81210f8937
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648011557598
+    created: 1648011557598
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_54730ba8873743adbbeea59774cbbc95
+    parentId: wrk_ba17c2e8e9c141f39fa7ed2ab7cd0c22
+    modified: 1648487645339
+    created: 1648011557580
+    fileName: dodo.yaml
+    contents: >-
+      openapi: 3.0.0
+
+      info:
+        title: Flashcard App V2
+        description: >
+          <div> In this MAD2 “FlashCardApp V2 '' project  I have to create a local hosting web application with the help of Vue  named “Flashcard” which can be used for memory training . The core functionalities are more or less same as last time, but this time we are using Vue to implement our project with a lot more interesting functionalities. Also API and token based authentication is mandatory for this time.
+          </div>
+
+          <h3> user Table Schema </h3> 
+          <table>
+            <thead>
+              <th>Column Name</th>
+              <th>Column Type</th>
+              <th>Constraints</th>
+            </thead>
+            <tbody>
+            <tr>
+              <td>id</td>
+              <td>Integer</td>
+              <td>Autoincrement, primary_key</td>
+            </tr>
+            <tr>
+              <td>f_name</td>
+              <td>String</td>
+              <td>Not Null</td>
+            </tr>
+              <tr>
+              <td>l_name</td>
+              <td>String</td>
+              <td>Not Null</td>
+            </tr>
+            <tr>
+              <td>email</td>
+              <td>String</td>
+              <td>Unique</td>
+            </tr>      
+            <tr>
+              <td>password</td>
+              <td>String</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>date_created</td>
+              <td>Datetime</td>
+              <td>Default</td>
+            </tr>
+            <tr>
+              <td>active</td>
+              <td>Boolean</td>
+              <td></td>
+            </tr>
+             <tr>
+              <td>fs_uniquifier</td>
+              <td>String</td>
+              <td>Null</td>
+            </tr>
+             
+          </tbody>
+          </table>
+
+          <h3> deck Table Schema </h3> 
+          <table>
+            <thead>
+              <th>Column Name</th>
+              <th>Column Type</th>
+              <th>Constraints</th>
+            </thead>
+            <tbody>
+            <tr>
+              <td>id</td>
+              <td>Integer</td>
+              <td>Primary Key, Auto Increment</td>
+            </tr>
+            <tr>
+              <td>title</td>
+              <td>String</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>user_id</td>
+              <td>Integer</td>
+              <td>Not Null,Foreign Key (user.id)</td>
+            </tr>
+            <tr>
+              <td>date_created</td>
+              <td>Datetime</td>
+              <td>Default</td>
+            </tr>
+            <tr>
+              <td>score</td>
+              <td>Integer</td>
+              <td>Default</td>
+            </tr>
+            <tr>
+              <td>last_rev</td>
+              <td>Datetime</td>
+              <td>Default</td>
+            </tr>
+          </tbody>
+          </table>
+
+
+          <h3> card Table Schema </h3> 
+          <table>
+            <thead>
+              <th>Column Name</th>
+              <th>Column Type</th>
+              <th>Constraints</th>
+            </thead>
+            <tbody>
+            <tr>
+              <td>card_id</td>
+              <td>Integer</td>
+              <td>Primary Key</td>
+            </tr>
+            <tr>
+              <td>front</td>
+              <td>String</td>
+              <td>Not Null</td>
+            </tr>
+             <tr>
+              <td>back</td>
+              <td>String</td>
+              <td>Not Null</td>
+            </tr>
+            <tr>
+              <td>score</td>
+              <td>Integer</td>
+              <td>Default</td>
+             </tr>
+               <tr>
+              <td>deck_id</td>
+              <td>String</td>
+              <td>Foreign Key(deck.id), Not Null</td>
+             </tr>
+          </tbody>
+          </table>
+
+          <h3> Error Codes </h3> 
+          <table>
+            <thead>
+              <th>Resource</th>
+              <th>Error Code</th>
+              <th>Message</th>
+            </thead>
+            <tbody>
+            <tr>
+              <td>User</td>
+              <td>400</td>
+              <td>user id not required</td>
+            </tr>
+            <tr>
+              <td>User</td>
+              <td>401</td>
+              <td>User already exist...</td>
+            </tr>
+            <tr>
+              <td>User</td>
+              <td>404</td>
+              <td> user id does not exist....</td>
+            </tr>
+            <tr>
+              <td>User</td>
+              <td>405</td>
+              <td>User id required </td>
+            </tr>
+            <tr>
+              <td>Deck</td>
+              <td>409</td>
+              <td>Deck already exist. </td>
+            </tr>
+            <tr>
+              <td>Deck</td>
+              <td>404</td>
+              <td>Deck id does not exist... </td>
+            </tr>
+            <tr>
+              <td>Deck</td>
+              <td>400</td>
+              <td>Deck_id required...</td>
+            </tr>
+            <tr>
+              <td>Card</td>
+              <td>404</td>
+              <td>Enrollment does not exist...</td>
+            </tr>  
+            <tr>
+              <td>Card</td>
+              <td>400</td>
+              <td>Userequired...</td>
+            </tr> 
+          </tbody>
+          </table>
+
+        version: 1.0.0
+      servers:
+        - url: http://127.0.0.1:8080/
+      paths:
+        /api/user/{id}:
+          description: End point to read, update and delete a user resource with id = Id.
+          get:
+            description: Operation to Read user resource.
+            parameters:
+              - in: path
+                name: id
+                required: true
+                schema:
+                  type: integer
+                  example: 201
+            responses:
+              '203':
+                description: Request Successful
+                content:
+                  application/json:
+                    schema:
+                      title: user object
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                          example: 201
+                        course_name:
+                          type: string
+                          example: Maths1
+                        course_code:
+                          type: string
+                          example: MA101
+                        course_description:
+                          type: string
+                          example: Course Description Example
+              '500':
+                description: Internal Server Error
+              '404':
+                description: User not found
+
+          delete:
+            description: Operation to delete the user resource
+            parameters:
+              - in: path
+                name: id
+                required: true
+                schema:
+                  type: integer
+                  example: 201
+            responses:
+              '200':
+                description: Successfully Deleted
+              '404':
+                description: user not found
+              '500':
+                description: Intenal Server Error
+
+        /api/user:
+          description: End point to create user resource
+          post:
+            description: Operation to create the user resource
+            requestBody:
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties:
+                      course_name:
+                        type: string
+                        example: Maths1
+                      course_code:
+                        type: string
+                        example: MA101
+                      course_description:
+                        type: string
+                        example: Course Description Example
+            responses:
+              '201':
+                description: Successfully Created
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        course_id:
+                          type: integer
+                          example: 201
+                        course_name:
+                          type: string
+                          example: Maths1
+                        course_code:
+                          type: string
+                          example: MA101
+                        course_description:
+                          type: string
+                          example: Course Description Example
+              '409':
+                description: course_code already exist
+              '500':
+                description: Internal Server Error
+              '400':
+                description: Bad request
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        error_code:
+                          type: string
+                        error_message:
+                          type: string
+        /api/courses/{user_id}:
+          description: Url to read, update and delete the deck resource.
+          get:
+            description: Operation to read deck resource
+            parameters:
+              - in: path
+                name: user_id
+                required: true
+                schema:
+                  type: integer
+                  example: 201
+            responses:
+              '200':
+                description: Request Successful
+                content:
+                  application/json:
+                    schema:
+                      title: deck object
+                      type: object
+                      properties:
+                        user_id:
+                          type: integer
+                          example: 101
+                        first_name:
+                          type: string
+                          example: Narendra
+                        last_name:
+                          type: string
+                          example: Mishra
+                        roll_number:
+                          type: string
+                          example: MA19M010
+              '500':
+                description: Internal server error
+              '404':
+                description: deck not found
+
+          put:
+            description: Operation to update the deck resource
+            parameters:
+              - in: path
+                name: user_id
+                required: true
+                schema:
+                  type: integer
+                  example: 101
+            requestBody:
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties:
+                      first_name:
+                        type: string
+                        example: Narendra
+                      last_name:
+                        type: string
+                        example: Mishra
+                      roll_number:
+                        type: string
+                        example: MA19M010
+            responses:
+              '200':
+                description: Successfully updated
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        student_id:
+                          type: integer
+                          example: 101
+                        first_name:
+                          type: string
+                          example: Narendra
+                        last_name:
+                          type: string
+                          example: Mishra
+                        roll_number:
+                          type: string
+                          example: MA19M010
+              '404':
+                description: Deck not found
+              '500':
+                description: Internal Server Error
+              '400':
+                description: Bad request
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        error_code:
+                          type: string
+                        error_message:
+                          type: string
+          delete:
+            description: Operation to delete the deck resource
+            parameters:
+              - in: path
+                name: user_id
+                required: true
+                schema:
+                  type: integer
+                  example: 101
+            responses:
+              '200':
+                description: Successfully Deleted
+              '500':
+                description: Internal Server Error
+              '404':
+                description: Deck not found
+
+        /api/courses:
+          description: Url to create deck resource
+          post:
+            description: Operation to create the deck resource
+            requestBody:
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties:
+                      first_name:
+                        type: string
+                        example: Narendra
+                      last_name:
+                        type: string
+                        example: Mishra
+                      roll_number:
+                        type: string
+                        example: MA19M010
+            responses:
+              '201':
+                description: Successfully Created
+                content:
+                  application/json:
+                    schema:
+                      title: student object
+                      type: object
+                      properties:
+                        student_id:
+                          type: integer
+                          example: 101
+                        first_name:
+                          type: string
+                          example: Narendra
+                        last_name:
+                          type: string
+                          example: Mishra
+                        roll_number:
+                          type: string
+                          example: MA19M010
+              '409':
+                description: User already exist
+              '500':
+                description: Internal Server Error
+              '400':
+                description: Bad request
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        error_code:
+                          type: string
+                        error_message:
+                          type: string
+
+        /api/student/{user_id}/course:
+          description: Url to enroll the cards with particular deck.
+          get:
+            description: Url to enroll the cards with particular deck.This path belongs to the Enrollment table.
+            parameters:
+              - in: path
+                name: user_id
+                required: true
+                schema:
+                  type: integer
+                  example: 101
+            responses:
+              '200':
+                description: Request Successful
+                content:
+                  application/json:
+                    schema:
+                      type: array
+                      items:
+                        properties:
+                          enrollment_id:
+                            type: integer
+                            example: 10
+                          student_id:
+                            type: integer
+                            example: 101
+                          course_id:
+                            type: integer
+                            example: 201
+              '400':
+                description: Invalid User Id
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        error_code:
+                          type: string
+                        error_message:
+                          type: string
+              '404':
+                description: User is not enrolled
+              '500':
+                description: Internal Server Error
+
+          post:
+            description: Add user enrollment  to the Enrollment table.
+            parameters:
+              - in: path
+                name: user_id
+                required: true
+                schema:
+                  type: integer
+                  example: 101
+            requestBody:
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties:
+                      course_id:
+                        type: integer
+                        example: 12345
+            responses:
+              '201':
+                description: Enrollment successful
+                content:
+                  application/json:
+                    schema:
+                      type: array
+                      items:
+                        properties:
+                          enrollment_id:
+                            type: integer
+                            example: 10
+                          student_id:
+                            type: integer
+                            example: 101
+                          course_id:
+                            type: integer
+                            example: 201
+              '404':
+                description: User not found
+              '500':
+                description: Internal Server Error
+              '400':
+                description: Bad request
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        error_code:
+                          type: string
+                        error_message:
+                          type: string
+
+        /api/student/{user_id}/course/{deck_id}:
+          description: URL to delete enrollment of a student in a course. This path belongs to the Enrollment table.
+          delete:
+            description: URL to delete enrollment of the student in the course. This path belongs to the Enrollment table.
+            parameters:
+              - in: path
+                name: user_id
+                required: true
+                schema:
+                  type: integer
+                  example: 101
+              - in: path
+                name: deck_id
+                required: true
+                schema:
+                  type: integer
+                  example: 10
+            responses:
+              '200':
+                description: Successfully deleted
+              '400':
+                description: Invalid Student Id or Course Id.
+                content:
+                  application/json:
+                    schema:
+                      type: object
+                      properties:
+                        error_code:
+                          type: string
+                        error_message:
+                          type: string
+              '404':
+                description: Enrollment for the student not found
+              '500':
+                description: Internal Server Error
+    contentType: yaml
+    _type: api_spec
+  - _id: env_env_cbbe5f7c9abb06272a2b14455f710a81210f8937_sub
+    parentId: env_cbbe5f7c9abb06272a2b14455f710a81210f8937
+    modified: 1648011611777
+    created: 1648011611777
+    name: OpenAPI env
+    data:
+      scheme: http
+      base_path: ""
+      host: 127.0.0.1:5000
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1648011611777
+    _type: environment
